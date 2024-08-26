@@ -1,7 +1,29 @@
-/*!
-* Start Bootstrap - Modern Business v5.0.7 (https://startbootstrap.com/template-overviews/modern-business)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-modern-business/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+
+// jQuery(document).ready(function($) {
+// var carouselWidth = $('.carousel-inner')[0].scrollWidth;
+// var cardWidth = $('.carousel-item').width();
+
+// var scrollPosition = 0;
+
+// $('.carousel-control-next').on('click', function(){ 
+//     console.log($);
+//     scrollPosition = scrollPosition + cardWidth;
+//     $('.carousel-inner').animate({scrollLeft: scrollPosition}, 600);
+// // });
+// // });
+
+// let items = document.querySelectorAll('.carousel .carousel-item')
+
+// 		items.forEach((el) => {
+// 			const minPerSlide = 4
+// 			let next = el.nextElementSibling
+// 			for (var i=1; i<minPerSlide; i++) {
+// 				if (!next) {
+//             // wrap carousel by using first child
+//             next = items[0]
+//         }
+//         let cloneChild = next.cloneNode(true)
+//         el.appendChild(cloneChild.children[0])
+//         next = next.nextElementSibling
+//     }
+// })
