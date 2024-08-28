@@ -34,3 +34,26 @@
     margin: 0 .5em;
   }
   
+  .custom-bg-color {
+      background-color: #E3F5ED; /* Your custom background color */
+      color: #45B486; /* Ensures text is readable */
+  }
+  
+  .custom-bg-color:hover {
+      background-color: #45a049; /* Slightly different color on hover */
+  }
+
+  .custom-bg-color-header {
+    background-color: #F5F8FA; /*Your custom background color
+    /* background-color: #134476;  */
+  }
+
+  .custom-bg-color-body {
+    background-color: #F5F8FA; /*Your custom background color*/
+    }
+   
+  .custom-border {
+    border-color: #EEF2F5; /*Your custom background color*/
+    border-radius: 16px;
+    }
+     
