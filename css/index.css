@@ -57,3 +57,69 @@
     border-radius: 16px;
     }
      
+    body {
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Customize the color of the accordion button when active */
+.accordion-button:not(.collapsed) {
+  color: #000000; /* Text color for the active button */
+  background-color: #F5F8FA; /* Background color for the active button */
+  border-color: #FFFFFF; /* Border color for the active button */
+}
+
+/* Customize the color of the accordion button in its default state */
+.accordion-button {
+  color: #000; /* Text color for the inactive button */
+  background-color:  #F5F8FA; /* Background color for the inactive button */
+  border-color:  #F5F8FA; /* Border color for the inactive button */
+}
+
+/* Remove border from the accordion button */
+.accordion-button {
+  border: none; /* Remove the border around the button */
+  box-shadow: none; /* Remove the box-shadow if any */
+}
+
+/* Remove border from the accordion item */
+.accordion-item {
+  border: none; /* Remove the border around the accordion item */
+}
+
+/* Optional: Remove border around the accordion body */
+.accordion-body {
+  border: none; /* Remove the border around the body if it exists */
+}
+
+/* Target the arrow in the accordion button */
+.accordion-button::after {
+  content: "\f078"; /* Unicode for Font Awesome down chevron, if using Font Awesome */
+  font-family: "Font Awesome 5 Free"; /* Font Awesome icon font, adjust if using a different icon set */
+  font-weight: 900; /* Font weight for solid icons in Font Awesome */
+  color: #007bff; /* Blue color for the arrow */
+  transition: transform 0.2s; /* Smooth transition for the rotation effect */
+}
+
+/* Rotate the arrow when the accordion is expanded */
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg); /* Rotate the arrow 180 degrees */
+}
+
+.navbar-nav .nav-link {
+  color: #6B7A8C; /* Default color for all nav links */
+}
+
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link:focus {
+  color: #5194FA;
+  /* Color for the active link */
+}
+
+.navbar-nav .nav-link.btn-primary {
+  color: white; /* Ensure button text remains white */
+}
+
+/* If you're using a specific class to denote the active link */
+.navbar-nav .nav-link.active {
+  background-color: transparent; /* Ensure background color doesn't override text color */
+}

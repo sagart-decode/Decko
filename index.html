@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
       <!-- Bootstrap core JS-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Google Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   
 </head>
 
@@ -32,9 +36,9 @@
                         class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link mx-2" href="index.html">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link mx-2" href="contact.html">CONTACT US</a></li>
-                        <li class="nav-item"><a class="nav-link me-4" href="pricing.html">SIGN IN</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 active fw-bold" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 fw-bold" href="contact.html">CONTACT US</a></li>
+                        <li class="nav-item"><a class="nav-link me-4 fw-bold" href="pricing.html">SIGN IN</a></li>
                         <li class="nav-item">
                             <a class="nav-link btn btn-primary text-white px-4" href="#" role="button"
                                 aria-expanded="false">Book a demo</a>
@@ -562,12 +566,12 @@
                             </div>
                           
                             <div class="card-body px-4">                               
-                                <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Aditya Daftary</div></a>
-                                <div class="small">
+                                <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-2">Aditya Daftary</div></a>
+                                <div class="small mb-2">
                                     <div class="text-muted">Radiologist &VerticalLine; Innovision Imaging</div>
                                 </div>
                                
-                                <p class="card-text mb-0 fs-9">A Yale trained radiologist who is fed up of clunky software solutions and wants to build technology that caters to the real needs of radiologists and make easy imaging accessible to all.</p>
+                                <p class="card-text mb-0 fs-9" style="color: #6B7A8C;">A Yale trained radiologist who is fed up of clunky software solutions and wants to build technology that caters to the real needs of radiologists and make easy imaging accessible to all.</p>
                                 <div class="mt-2 col-xl-4">                                  
                                     <a class="nav-link btn btn-light custom-bg-color" href="#" role="button"
                                     aria-expanded="false">  <i class="fa-solid fa-share" style="color: #46b486;"></i> View LinkedIn</a> 
@@ -590,12 +594,12 @@
                             </div>
                           
                             <div class="card-body px-4">                               
-                                <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Amit Khivesara </div></a>
-                                <div class="small">
+                                <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-2">Amit Khivesara </div></a>
+                                <div class="small mb-2">
                                     <div class="text-muted">Engineer &VerticalLine; Workplace</div>
                                 </div>
                                
-                                <p class="card-text mb-0 fs-9">An IIT computer scientist who wants to help see imaging achieve its full potential by creating a light, fast, scaleable and constantly upgradeable cloud based software environment.</p>
+                                <p class="card-text mb-0 fs-9" style="color: #6B7A8C;">An IIT computer scientist who wants to help see imaging achieve its full potential by creating a light, fast, scaleable and constantly upgradeable cloud based software environment.</p>
                                 <div class="mt-2 col-xl-4">                                  
                                     <a class="nav-link btn btn-light custom-bg-color" href="#" role="button"
                                     aria-expanded="false">  <i class="fa-solid fa-share" style="color: #45B486;"></i> View LinkedIn</a> 
@@ -616,36 +620,33 @@
             <div class="text-start mb-5">
                 <h1 class="fw-bolder">Frequently Asked Questions</h1>
             </div>
-            <div class="row gx-5">
+            <div class="row gx-5 justify-content-center">
                 <div class="col-xl-8">
 
                     <!-- FAQ Accordion 1-->
                  
-                    <div class="accordion mb-5" id="accordionExample">
-                        <div class="accordion-item mb-3 custom-bg-color-body">
-                            <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is PACS?</button></h3>
+                    <div class="accordion mb-5 accordion-button:not(.collapsed)" id="accordionExample">
+                        <div class="accordion-item mb-3 custom-bg-color-body ">
+                            <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">1. What is PACS?</button></h3>
                             <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong>
-                                    It is shown by default,
+                                    You can deploy a PACS, or Picture Archive and Communication System to handle all the enormous digital files that you generate, such as x-rays and CAT scans.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item mb-3 custom-bg-color-body">
-                            <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Accordion Item #2</button></h3>
+                            <h3 class="accordion-header" id="headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">2. What is RIS?</button></h3>
                             <div class="accordion-collapse collapse" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong>
-                                    It is hidden by default, 
+                                    You can deploy a PACS, or Picture Archive and Communication System to handle all the enormous digital files that you generate, such as x-rays and CAT scans. 
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item mb-3 custom-bg-color-body">
-                            <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Accordion Item #3</button></h3>
+                            <h3 class="accordion-header" id="headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">3. More questions can follow</button></h3>
                             <div class="accordion-collapse collapse" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong>
-                                    It is hidden by default, 
+                                    You can deploy a PACS, or Picture Archive and Communication System to handle all the enormous digital files that you generate, such as x-rays and CAT scans.
                                 </div>
                             </div>
                         </div>
