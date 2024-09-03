@@ -123,3 +123,15 @@
 .navbar-nav .nav-link.active {
   background-color: transparent; /* Ensure background color doesn't override text color */
 }
+
+
+/* image center footer*/
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Or adjust as needed */
+  width: 100px; /* Or adjust as needed */
+  margin: 0 auto; /* Centers the div itself */
+}
